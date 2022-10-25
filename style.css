@@ -72,8 +72,8 @@ input, button {
   text-transform: uppercase
 }
 .input-text {
-  margin:0;
-  font-size:18px;
+  margin: 0;
+  font-size: 18px;
   line-height: 18px;
   height: 21px;
   padding: 0 9px;
@@ -123,12 +123,12 @@ input, button {
   width: 226px;
 }
 .delete img {
-  height:2em;
-  transform:rotateZ(45deg);
-  transition:transform 200ms ease-in;
+  height: 2em;
+  transform: rotateZ(45deg);
+  transition: transform 200ms ease-in;
 }
 .delete img:hover {
-  transform:rotateZ(0);
+  transform: rotateZ(0);
 }
 
 /* Completed */
