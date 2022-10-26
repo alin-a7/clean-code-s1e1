@@ -29,6 +29,8 @@
   display: block;
   width: 500px;
   margin: 0 auto 0;
+  padding-top: 10px;
+
 }
 .task {
   width: 56%;
@@ -113,7 +115,7 @@ button {
   vertical-align: middle;
 }
 
-.ul__item > .input-text {
+.ul__item > .ul__item__checkbox {
   margin: 0 10px;
 }
 .ul__item > .ul__item__label {
@@ -141,15 +143,15 @@ button {
 }
 
 /* Edit Task */
-.ul .ul__item input[type="text"] {
+.ul .ul__item .input-text {
   display: none;
 }
 
-.ul .ul__item.edit-Mode input[type="text"] {
+.ul .ul__item.edit-mode .input-text {
   display: inline-block;
   width: 224px;
 }
 
-.ul .ul__item.edit-Mode .ul__item__label {
+.ul .ul__item.edit-mode .ul__item__label {
   display: none;
 }
