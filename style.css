@@ -1,5 +1,5 @@
 /* Basic Style */
-.container {
+.body {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
@@ -97,7 +97,7 @@ button {
   display: block;
   margin: 0 0 20px;
 }
-#new-task {
+.new-task {
   width: 318px;
 }
 
@@ -137,7 +137,7 @@ button {
 }
 
 /* Completed */
-#completed-tasks .ul__item__label {
+.completed-tasks .ul__item__label {
   text-decoration: line-through;
   color: #888;
 }
